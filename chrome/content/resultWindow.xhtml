@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>PDF 问答助手 - 结果</title>
+    <link rel="stylesheet" href="resultWindow.css" />
+    <script defer="defer" src="resultWindow.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>PDF 问答助手</h1>
+        <div class="meta">
+          <span id="item-id"></span>
+          <span id="timestamp"></span>
+        </div>
+      </header>
+      <section>
+        <h2>问题</h2>
+        <pre id="question" class="block"></pre>
+      </section>
+      <section>
+        <h2>回复</h2>
+        <pre id="answer" class="block"></pre>
+      </section>
+      <section class="controls">
+        <button id="refresh">刷新</button>
+        <button id="close">关闭</button>
+        <span id="status" role="status"></span>
+      </section>
+    </main>
+  </body>
+</html>

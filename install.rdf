@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>pdf-qa-helper@local</em:id>
+    <em:version>0.1.0</em:version>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+    <em:unpack>false</em:unpack>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>zotero@chnm.gmu.edu</em:id>
+        <em:minVersion>7.0</em:minVersion>
+        <em:maxVersion>*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <em:name>PDF 问答助手</em:name>
+    <em:description>将当前条目的 PDF 转换为文本并发送到远程模型进行问答。</em:description>
+    <em:creator>AI Assistant</em:creator>
+  </Description>
+</RDF>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>PDF 问答助手</title>
+    <link rel="stylesheet" href="panel.css" />
+    <script defer="defer" src="panel.js"></script>
+  </head>
+  <body>
+    <div id="panel">
+      <div class="section">
+        <label for="question">提问</label>
+        <textarea id="question" rows="4" placeholder="请输入想询问模型的问题"></textarea>
+      </div>
+      <div class="actions">
+        <button id="ask-button">发送</button>
+        <button id="cancel-button" disabled="disabled">取消</button>
+        <button id="open-preferences">设置</button>
+        <button id="open-window">弹出窗口</button>
+      </div>
+      <div class="section">
+        <label>进度与日志</label>
+        <pre id="log" class="log"></pre>
+      </div>
+      <div class="section">
+        <label>模型回复</label>
+        <div id="answer" class="answer"></div>
+      </div>
+    </div>
+  </body>
+</html>
