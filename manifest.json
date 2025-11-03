@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "PDF 问答助手",
+  "version": "0.1.0",
+  "description": "将当前条目的 PDF 转换为文本并发送到远程模型进行问答。",
+  "author": "AI Assistant",
+  "applications": {
+    "zotero": {
+      "id": "pdf-qa-helper@local",
+      "strict_min_version": "7.0"
+    }
+  }
+}

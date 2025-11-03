@@ -1,0 +1,52 @@
+body {
+  font: menu;
+  margin: 0;
+  padding: 16px;
+  min-width: 420px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.meta {
+  display: flex;
+  gap: 12px;
+  color: color-mix(in srgb, currentColor 60%, transparent);
+  font-size: 0.9em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.block {
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  border-radius: 4px;
+  padding: 8px;
+  background: color-mix(in srgb, var(--in-content-box-background, #f8f8f8) 90%, transparent);
+  white-space: pre-wrap;
+  word-break: break-word;
+  min-height: 80px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#status {
+  min-height: 1.2em;
+  color: color-mix(in srgb, currentColor 60%, transparent);
+}

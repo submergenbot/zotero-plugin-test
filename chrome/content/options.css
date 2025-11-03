@@ -1,0 +1,41 @@
+body {
+  font: menu;
+  margin: 0;
+  padding: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 480px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+input[type="url"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+#status {
+  min-height: 1.2em;
+  color: color-mix(in srgb, currentColor 60%, transparent);
+}
+
+.hint {
+  color: color-mix(in srgb, currentColor 60%, transparent);
+  font-size: 0.9em;
+}
