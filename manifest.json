@@ -5,9 +5,12 @@
   "description": "将当前条目的 PDF 转换为文本并发送到远程模型进行问答。",
   "author": "AI Assistant",
   "applications": {
-    "zotero": {
+    "gecko": {
       "id": "pdf-qa-helper@local",
-      "strict_min_version": "7.0"
+      "strict_min_version": "102.0"
     }
+  },
+  "legacy": {
+    "type": "bootstrap"
   }
 }
